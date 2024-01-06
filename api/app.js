@@ -12,5 +12,5 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/name',(req,res)=>{
-    res.json({secret:process.env.jwt_secret,frontend:process.env.frontend_url});
+    res.json({secret:process.env.JWT_SECRET,frontend:process.env.frontend_url});
 })
