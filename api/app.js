@@ -3,7 +3,7 @@ const express = require('express');
 const PORT = process.env.PORT;
 const app = express();
 
-app.listen(PORT,()=>{
+app.listen(3000,()=>{
     console.log(`Server is listening on port 3000`);
 })
 
