@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '18.x'
       - name: Install Dependencies
-        run: 
+        run: |
           cd api
           npm install
       - name: Deploy To Azure App Service
