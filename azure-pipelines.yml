@@ -18,4 +18,4 @@ steps:
 - script: |
     cd api
     npm install
-  displayName: 'npm install'
+  displayName: 'Installing Packages'
